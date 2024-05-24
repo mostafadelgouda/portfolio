@@ -1,7 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser, faList, faProjectDiagram, faGraduationCap, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faUser, faList, faProjectDiagram, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import '../styles/TopBar.css'
 
 const TopBar = () => {

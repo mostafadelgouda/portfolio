@@ -1,6 +1,5 @@
 import React from "react";
 import profileImage from "../images/about.png";
-import introImage from "../images/about.png";
 // import anotherImage from '../assets/images/gwen.jpg'; // Add this line for the new image
 import { Typewriter } from "react-simple-typewriter";
 import "../styles/About.css";

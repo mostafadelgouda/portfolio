@@ -1,4 +1,3 @@
-import { Outlet, Link } from "react-router-dom";
 import TopBar from "./components/TopBar"
 import BotBar from "./components/BotBar"
 import About from './components/About';

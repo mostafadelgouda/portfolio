@@ -4,11 +4,7 @@ import "../styles/Contact.css"; // Ensure you have corresponding CSS
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
-import {
-  faLinkedin,
-  faGithub,
-  faTwitter,
-} from "@fortawesome/free-brands-svg-icons";
+
 
 const Contact = () => {
   return (
