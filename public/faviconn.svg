@@ -1,0 +1,21 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="rounded">
+      <rect x="0" y="0" width="512" height="512" rx="120" ry="120"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#rounded)">
+    <rect x="0" y="0" width="512" height="512" fill="#0A0A0A"/>
+
+    <!-- Left bracket -->
+    <path d="M 200 150 L 130 256 L 200 362" fill="none" stroke="#E5352B" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Right bracket -->
+    <path d="M 312 150 L 382 256 L 312 362" fill="none" stroke="#E5352B" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Center monogram M -->
+    <path d="M 222 330 L 222 182 L 256 250 L 290 182 L 290 330"
+          fill="none" stroke="#FFFFFF" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
