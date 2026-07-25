@@ -1,6 +1,6 @@
 import type { Skill, Project, Experience } from './types';
 
-const BASE = import.meta.env.VITE_API_BASE || '';
+const BASE = 'https://portfolio-api-six-teal.vercel.app';
 
 async function get<T>(path: string): Promise<T> {
   const res = await fetch(`${BASE}${path}`);
